@@ -1,0 +1,23 @@
+# Build and cache directories
+.next/
+out/
+build/
+
+# Node modules
+node_modules/
+
+# Agent settings, prompts and cache directories
+.agent/
+.agents/
+.claude/
+.opencode/
+.antigravitycli/
+.gemini/
+
+# Lock files and metadata
+package-lock.json
+skills-lock.json
+.mcp.json
+
+# Public assets
+public/
