@@ -234,7 +234,7 @@ components:
     typography: "{typography.caption}"
     padding: 8px 24px
   category-strip:
-    backgroundColor: "{colors.canvas}"
+    backgroundColor: "{colors.surface-soft}"
     textColor: "{colors.muted}"
     typography: "{typography.button-sm}"
   category-tab-active:
@@ -243,7 +243,7 @@ components:
     typography: "{typography.button-sm}"
     rounded: "{rounded.none}"
   property-card:
-    backgroundColor: "{colors.canvas}"
+    backgroundColor: "{colors.surface-card}"
     textColor: "{colors.ink}"
     typography: "{typography.body-sm}"
     rounded: "{rounded.md}"
@@ -276,21 +276,21 @@ components:
     padding: 2px 6px
   amenity-row:
     backgroundColor: transparent
-    textColor: "{colors.ink}"
+    textColor: "{colors.body}"
     typography: "{typography.body-md}"
     padding: 12px 0
   reviews-card:
     backgroundColor: transparent
-    textColor: "{colors.ink}"
+    textColor: "{colors.body}"
     typography: "{typography.body-sm}"
   host-card:
-    backgroundColor: "{colors.canvas}"
-    textColor: "{colors.ink}"
+    backgroundColor: "{colors.surface-card}"
+    textColor: "{colors.body}"
     typography: "{typography.body-sm}"
     rounded: "{rounded.md}"
     padding: 24px
   reservation-card:
-    backgroundColor: "{colors.canvas}"
+    backgroundColor: "{colors.surface-card}"
     textColor: "{colors.ink}"
     typography: "{typography.body-md}"
     rounded: "{rounded.md}"
@@ -324,6 +324,41 @@ components:
     backgroundColor: "{colors.canvas}"
     textColor: "{colors.muted}"
     typography: "{typography.caption-sm}"
+
+  # Helper components to reference all design system colors cleanly
+  error-message:
+    textColor: "{colors.primary-error-text}"
+    typography: "{typography.caption}"
+  error-message-hover:
+    textColor: "{colors.primary-error-text-hover}"
+    typography: "{typography.caption}"
+  disabled-text:
+    textColor: "{colors.muted-soft}"
+    typography: "{typography.body-sm}"
+  star-icon:
+    textColor: "{colors.star-rating}"
+  hairline-divider:
+    backgroundColor: "{colors.hairline}"
+    height: 1px
+  hairline-soft-divider:
+    backgroundColor: "{colors.hairline-soft}"
+    height: 1px
+  border-strong-indicator:
+    backgroundColor: "{colors.border-strong}"
+    height: 2px
+  modal-backdrop:
+    backgroundColor: "{colors.scrim}"
+  legal-link:
+    textColor: "{colors.legal-link}"
+    typography: "{typography.caption-sm}"
+  luxe-badge:
+    backgroundColor: "{colors.luxe}"
+    textColor: "{colors.on-primary}"
+    typography: "{typography.badge}"
+  plus-badge:
+    backgroundColor: "{colors.plus}"
+    textColor: "{colors.on-primary}"
+    typography: "{typography.badge}"
 ---
 
 ## Overview
