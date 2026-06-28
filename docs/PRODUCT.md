@@ -21,6 +21,68 @@ The system should be modular and designed for future expansion.
 
 ---
 
+# Product-Market Fit (PMF)
+
+## Problem Statement
+
+Finding suitable rental properties and qualified tenants is inefficient and opaque. Tenants waste time browsing fragmented listings, while owners struggle to reach reliable renters. There is no single platform that intelligently matches tenant requirements with available properties, making the whole process slow and frustrating for all parties.
+
+## Target Market
+
+### Tenants
+
+Individuals and families actively searching for rental properties who value a quick, transparent search and a personalized matching process.
+
+### Owners & Agents
+
+Property owners and agents looking to increase occupancy rates, reduce vacancy periods, and connect with pre-qualified tenants without manual effort.
+
+## Value Proposition
+
+A centralized property-management platform that connects the right tenants with the right properties. By collecting structured requirements from tenants and detailed property data from owners, the platform automates intelligent matching, saving time and reducing friction for everyone involved.
+
+## Validation Strategy (MVP Initial)
+
+Before building a fully automated marketplace, we validate demand through a manual operations approach:
+
+- **Landing Pages**: Drive traffic and collect leads from both tenants and owners.
+- **Tenant Registration**: Capture detailed rental requirements (location, budget, size, pets, timeline).
+- **Owner Registration**: Capture property details and owner contact information.
+- **Manual Matching**: Operations team manually matches tenant profiles with property listings to gauge interest and refine the matching algorithm.
+- **Lead Management**: Track registrations, matches, and engagement to confirm market fit before investing in full automation.
+
+This lightweight approach allows us to learn quickly, iterate on the product, and prove that both sides of the marketplace are willing to participate.
+
+## Success Indicators
+
+Key metrics to validate PMF during the MVP Initial phase:
+
+- Tenant registrations
+- Owner registrations
+- Number of submitted properties
+- Match requests generated
+- User engagement (return visits, profile completions)
+
+## Assumptions & Risks
+
+- **Demand exists**: There is sufficient volume of tenants and owners in target markets willing to use a new platform.
+- **Manual operations scale**: Early manual matching can be sustained long enough to validate the model without burning out the operations team.
+- **Data quality**: Users are willing to provide accurate and detailed requirements and property information.
+- **Market timing**: Property markets are dynamic; economic shifts could affect willingness to rent or list.
+- **Competition**: Existing property portals may already satisfy user needs; our intelligent matching and user experience must differentiate us.
+
+## Roadmap to PMF
+
+| Phase       | Focus                                      | Key Milestone                                   |
+| ----------- | ------------------------------------------ | ----------------------------------------------- |
+| MVP Initial | Manual matching, lead collection           | 100 tenant registrations, 20 owner listings     |
+| MVP Phase 1 | Self-service property search and matching  | 500 active tenants, 50 properties, 100 matches  |
+| MVP Phase 2 | Full marketplace with booking and payments | 1,000+ active users, self-sustaining match rate |
+
+By progressing through these phases, we systematically de-risk the product and move from validated learning to a scalable automated platform.
+
+---
+
 # Product Verticals
 
 ## Vertical 1: Renting Out Property (MVP)
