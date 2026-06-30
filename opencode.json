@@ -1,5 +1,18 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "read": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny",
+      "*.env.example": "allow"
+    },
+    "bash": {
+      "cat *.env*": "deny",
+      "printenv*": "deny",
+      "env": "deny"
+    }
+  },
   "mcp": {
     "shadcn": {
       "type": "local",
